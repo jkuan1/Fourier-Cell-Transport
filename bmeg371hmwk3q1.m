@@ -36,7 +36,7 @@ for time=0:k:1
 end
 
 plot(0:h:1,Grid_intitial, 0:h:1,time_point_zero_five, 0:h:1,time_point_one, 0:h:1,time_point_two, 0:h:1,time_final)
-xlabel('0 < x < 1') 
+xlabel('x') 
 ylabel('Concentration') 
 title('Concentration vs x')
-legend({'time = 0','time = 0.05','time = 0.1', 'time = 0.2', 'time = 1.0'},'Location','northwest')
+legend({'time = 0','time = 0.05','time = 0.1', 'time = 0.2', 'time = 1.0'},'Location','northeast')
